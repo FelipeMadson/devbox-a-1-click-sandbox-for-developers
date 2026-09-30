@@ -1,11 +1,12 @@
 {
-  "name": "devbox-a-1-click-sandbox-for-developers",
+  "name": "@felipemadson/devbox-a-1-click-sandbox-for-developers",
   "version": "1.1.0",
   "description": "Painful and time-consuming setup guides for development environments. DevBox is an automated local sandbox.",
   "type": "module",
   "main": "src/index.ts",
   "bin": {
-    "devbox-a-1-click-sandbox-for-developers": "src/cli/cli.ts"
+    "devbox-a-1-click-sandbox-for-developers": "./bin/cli.js",
+    "@felipemadson/devbox-a-1-click-sandbox-for-developers": "./bin/cli.js"
   },
   "scripts": {
     "start": "node --experimental-strip-types src/index.ts",
