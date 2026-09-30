@@ -1,5 +1,15 @@
 # DevBox: A 1-Click Sandbox for Developers
 
+[![CI Status](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions)
+[![Latest Release](https://img.shields.io/github/v/release/FelipeMadson/devbox-a-1-click-sandbox-for-developers?color=145e4d&logo=github)](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/releases)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![SemVer 2.0.0](https://img.shields.io/badge/semver-2.0.0-blue.svg)](https://semver.org)
+
+[![CI Status](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions/workflows/ci.yml/badge.svg)](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/actions)
+[![Latest Release](https://img.shields.io/github/v/release/FelipeMadson/devbox-a-1-click-sandbox-for-developers?color=145e4d&logo=github)](https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/releases)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![SemVer 2.0.0](https://img.shields.io/badge/semver-2.0.0-blue.svg)](https://semver.org)
+
 [![Node.js Version](https://img.shields.io/badge/Node.js-22%20%7C%2024%20LTS-brightgreen.svg)](https://nodejs.org)
 [![Architecture](https://img.shields.io/badge/Architecture-Clean%20Hexagonal%20Multi--Tenant-blue.svg)](docs)
 [![Test Suite](https://img.shields.io/badge/Tests-100%25%20Passing%20(18%20tests%20node%3Atest)-success.svg)](tests)
@@ -9,6 +19,15 @@
 > **Painful and time-consuming setup guides for development environments. DevBox is an automated local sandbox.**
 
 ---
+
+
+---
+
+## 🖥️ Demonstração em Terminal Vetorial (Execução & Benchmarks)
+
+<p align="center">
+  <img src="docs/assets/terminal-demo.svg" alt="Terminal Demo - Devbox A 1 Click Sandbox For Developers" width="840" />
+</p>
 
 ## 🏛️ Visão Geral & Arquitetura de Software
 
@@ -69,3 +88,16 @@ npm run cli doctor
 * **Autor:** Felipe Madison ([@FelipeMadson](https://github.com/FelipeMadson))
 * **Formação:** Tecnologia em Sistemas para Internet (TSI)
 * **Licença:** MIT
+
+---
+
+## 📦 Polyglot Client SDKs (TypeScript & Python)
+
+SDKs tipados com zero dependências externas em `sdk/`:
+
+```typescript
+import { devboxa1clicksandboxfordevelopersClient } from "./sdk/ts/client.ts";
+const client = new devboxa1clicksandboxfordevelopersClient({ baseUrl: "http://127.0.0.1:3000" });
+const health = await client.checkHealth();
+console.log("Health:", health.status);
+```
