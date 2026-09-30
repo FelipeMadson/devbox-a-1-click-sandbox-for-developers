@@ -34,7 +34,7 @@
 
 ## 🎮 Live Interactive Playground (No Backend Required)
 
-Experimente o simulador em tempo real executando 100% no seu navegador com WebCrypto, Token Bucket e Write-Ahead Logging:
+Experimente o emulador de terminal interativo com execução de comandos, histórico via setas e autocompletação inteligente via Tab:
 👉 **[Acessar Live Playground do Devbox A 1 Click Sandbox For Developers](https://felipemadson.github.io/devbox-a-1-click-sandbox-for-developers/)**
 
 ## 🖥️ Demonstração em Terminal Vetorial (Execução & Benchmarks)
