@@ -2,9 +2,9 @@
   "slug": "devbox-a-1-click-sandbox-for-developers",
   "version": "v1.0.0",
   "archiveFilename": "devbox-a-1-click-sandbox-for-developers-v1.0.0.tar.gz",
-  "archiveSizeBytes": 17255,
-  "sha256": "44cb14b065afa9c8b787ae5deaf660e6b793fefcc9f3942268dcccfb0d63ab53",
-  "filesIncluded": 22,
-  "createdAt": "2026-09-30T14:53:44.109Z",
+  "archiveSizeBytes": 32320,
+  "sha256": "4909abf7a4b35113ef2149488377b6af0ae685f6b7ac7b6be65593ed9e4f002f",
+  "filesIncluded": 39,
+  "createdAt": "2026-09-30T15:18:12.613Z",
   "author": "Felipe Madison (@FelipeMadson)"
 }
