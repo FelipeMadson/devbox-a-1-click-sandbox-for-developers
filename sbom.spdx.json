@@ -1,0 +1,46 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Devbox A 1 Click Sandbox For Developers SBOM",
+  "documentNamespace": "https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers/spdxdocs/devbox-a-1-click-sandbox-for-developers-1.0.0-d59afaee-e35f-4afe-aac1-35a76efda7ad",
+  "creationInfo": {
+    "created": "2026-09-30T15:18:12.603Z",
+    "creators": [
+      "Person: Felipe Madison (@FelipeMadson)",
+      "Organization: Autonomous Portfolio Engine — Staff Engineering Grade",
+      "Tool: SecurityCiGenerator-1.0.0"
+    ],
+    "licenseListVersion": "3.21"
+  },
+  "packages": [
+    {
+      "name": "devbox-a-1-click-sandbox-for-developers",
+      "SPDXID": "SPDXRef-Package-devbox-a-1-click-sandbox-for-developers",
+      "versionInfo": "1.0.0",
+      "packageFileName": "devbox-a-1-click-sandbox-for-developers-1.0.0.tar.gz",
+      "packageSupplier": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "originator": "Person: Felipe Madison (https://github.com/FelipeMadson)",
+      "downloadLocation": "git+https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers.git@v1.0.0",
+      "filesAnalyzed": false,
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8709893eb569e2a5e306e6d026fb8b2c5d3567f3a5508a20b7b68bdc634c00ba"
+        }
+      ],
+      "homepage": "https://github.com/FelipeMadson/devbox-a-1-click-sandbox-for-developers",
+      "concludedLicense": "MIT",
+      "declaredLicense": "MIT",
+      "copyrightText": "Copyright (c) 2026 Felipe Madison (@FelipeMadson)",
+      "description": "Enterprise-grade production release for Devbox A 1 Click Sandbox For Developers, engineered by Felipe Madison."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-devbox-a-1-click-sandbox-for-developers",
+      "relationshipType": "DESCRIBES"
+    }
+  ]
+}
